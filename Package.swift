@@ -29,7 +29,7 @@ let package = Package(
     .package(
       name: "MintegralSDK",
       url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git",
-      exact: "7.7.9"
+      .exact("7.7.9")
     )
   ],
   targets: [
